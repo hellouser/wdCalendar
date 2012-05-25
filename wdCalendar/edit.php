@@ -246,7 +246,7 @@ if(!empty($id_event)){
             <input id="Location" name="Location" style="width:95%;" type="text" value="<?php echo isset($event)?$event->Location:""; ?>" />                 
           </label>                 
           <label>                    
-            <span>                        Remarques:
+            <span>                        Commentaires:
             </span>                    
 <textarea cols="20" id="Description" name="Description" rows="2" style="width:95%; height:70px">
 <?php echo isset($event)?$event->Description:""; ?>
